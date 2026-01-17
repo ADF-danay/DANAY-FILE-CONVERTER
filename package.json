@@ -1,0 +1,20 @@
+{
+  "name": "danay-file-converter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --require-approval never",
+    "synth": "cdk synth"
+ },
+ "devDependencies": {
+   "aws-cdk-lib": "^2.90.0",
+   "constructs": "^10.0.0",
+   "typescript": "^5.1.6",
+   "ts-node": "^10.9.1",
+   "@types/node": "^18.16.18"
+ },
+ "dependencies": {}
+}
